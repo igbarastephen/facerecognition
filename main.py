@@ -59,5 +59,4 @@ for (top, right, bottom, left), name in zip(face_locations, face_names):
     cv2.imshow('Video', frame)
 # Hit 'q' on the keyboard to quit!
 if cv2.waitKey(1) & 0xFF == ord('q'):
-    print('hello now')
     break
